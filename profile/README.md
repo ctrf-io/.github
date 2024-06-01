@@ -26,6 +26,8 @@ The only way we can grow CTRF is with your help and the support of the software 
 - **php** - write PHPUnit reporter
 - **python** - write pytest reporter
 - **swift** - write XCTest/XCUITest reporter
+- **ruby** - write RSpec reporter
 - **javascript/typescript** - improve and maintain existing node reporters
 - **golang** - improve and maintain existing Go reporter
+- **dotnet** - improve and maintain existing dotnet reporter
 
