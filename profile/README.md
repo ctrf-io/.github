@@ -1,33 +1,40 @@
 ## Hi there 👋
 
-Common Test Report Format is a JSON test report schema that provides standardized JSON test results reports.
+CTRF is a JSON test automation results report format.
 
-## We need your help
+**We need your help to grow CTRF, please follow the [GitHub organisation](https://github.com/ctrf-io) and give our repositories a star ⭐**
 
-We believe CTRF can save a lot of time for engineers, a common data serialisation report schema, well structured, open source, community-driven and works with any framework. 
+**It means a lot to us.**
 
-For over 30 years software engineers have used a de facto data serialisation report, *you know the one!* But we feel it’s time to modernise.
-
-The only way we can grow CTRF is with your help and the support of the software engineering community.
-
-## How can you help?
-
-- Join and build with us! We are looking for contributors, to get involved in this early-stage project. All contributions are welcome.
-- Give our repositories a star ⭐⭐⭐⭐⭐⭐
-- Follow the CTRF [GitHub organisation](https://github.com/ctrf-io)
-- Clap for our [medium articles](https://medium.com/@ma11hewthomas) (30 times each) 👏
-- Share, share share! Discord, Reddit, Twitter, LinkedIn, Slack, Teams, whereever! - please share our [libraries](https://github.com/orgs/ctrf-io/repositories), our [homepage](https://www.ctrf.io/) or our [Medium articles](https://medium.com/@ma11hewthomas)
-- Maybe even write a blog about us!
-- Try our [tools](https://github.com/orgs/ctrf-io/repositories)
-
-## We are looking for open-source contributors
-
-- **java** - write JUnit, testNG and espresso reporters
-- **php** - write PHPUnit reporter
-- **python** - write pytest reporter
-- **swift** - write XCTest/XCUITest reporter
-- **ruby** - write RSpec reporter
-- **javascript/typescript** - improve and maintain existing node reporters
-- **golang** - improve and maintain existing Go reporter
-- **dotnet** - improve and maintain existing dotnet reporter
+```json
+{
+  "results": {
+    "tool": {
+      "name": "AnyTool"
+    },
+    "summary": {
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "start": 1706828654274,
+      "stop": 1706828655782
+    },
+    "tests": [
+      {
+        "name": "API Status code is 200",
+        "status": "passed",
+        "duration": 801
+      }
+    ],
+    "environment": {
+      "appName": "MyApp",
+      "buildName": "MyApp",
+      "buildNumber": "100"
+    }
+  }
+}
+```
 
