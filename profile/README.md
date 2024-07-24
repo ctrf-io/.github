@@ -1,6 +1,8 @@
 ## Hi there 👋
 
-CTRF is a JSON test automation results report format.
+Generate the same JSON test report, no matter the test framework.
+
+CTRF is a JSON test results report with many reporters and plugins supporting modern test automation frameworks.
 
 **We need your help to grow CTRF, please follow the [GitHub organisation](https://github.com/ctrf-io) and give our repositories a star ⭐**
 
