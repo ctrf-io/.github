@@ -18,7 +18,7 @@ By standardizing the output of test execution, it enables results to be shared, 
 
 ## Support
 
-You can support the project by giving this repository a star ⭐
+You can support the project by giving the [CTRF repository](https://github.com/ctrf-io/ctrf) a star
 
 ## Open Standard
 
